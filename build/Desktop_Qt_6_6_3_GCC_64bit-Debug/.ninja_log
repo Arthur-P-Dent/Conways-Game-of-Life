@@ -1,9 +1,17 @@
 # ninja log v5
-0	293	1715461426270919447	/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/mocs_compilation.cpp	8376585dbb78c6b4
-0	293	1715461426270919447	ConwaysGOL_autogen/mocs_compilation.cpp	8376585dbb78c6b4
-1814	2039	1715461428018974721	ConwaysGOL	a77254e2560637b8
-0	293	1715461426270919447	/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/timestamp	8376585dbb78c6b4
-0	293	1715461426270919447	ConwaysGOL_autogen/timestamp	8376585dbb78c6b4
-294	1814	1715461427794967636	CMakeFiles/ConwaysGOL.dir/widget.cpp.o	8d06379fe5034b06
-293	1769	1715461427750966244	CMakeFiles/ConwaysGOL.dir/ConwaysGOL_autogen/mocs_compilation.cpp.o	b925e557028e4d9f
+164	1263	1715500222212430080	CMakeFiles/ConwaysGOL.dir/cell.cpp.o	a36b2d9c8ceba22a
+2	19	1715500305923703095	/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/mocs_compilation.cpp	8376585dbb78c6b4
+2	19	1715500305923703095	ConwaysGOL_autogen/mocs_compilation.cpp	8376585dbb78c6b4
+1731	1998	1715500307899697769	ConwaysGOL	83ea7b993fb0a70f
+2	19	1715500305923703095	/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/timestamp	8376585dbb78c6b4
+2	19	1715500305923703095	ConwaysGOL_autogen/timestamp	8376585dbb78c6b4
+165	1271	1715500222220429953	CMakeFiles/ConwaysGOL.dir/thegame.cpp.o	e22b8dfdfce0b52
+21	1731	1715500307635698464	CMakeFiles/ConwaysGOL.dir/widget.cpp.o	8d06379fe5034b06
+164	1357	1715500222308428550	CMakeFiles/ConwaysGOL.dir/ConwaysGOL_autogen/mocs_compilation.cpp.o	b925e557028e4d9f
 293	1722	1715461427702964726	CMakeFiles/ConwaysGOL.dir/main.cpp.o	b4c7eccf41920c76
+2	13	1715500324367669427	ConwaysGOL_autogen/timestamp	8376585dbb78c6b4
+2	13	1715500324367669427	ConwaysGOL_autogen/mocs_compilation.cpp	8376585dbb78c6b4
+2	13	1715500324367669427	/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/timestamp	8376585dbb78c6b4
+2	13	1715500324367669427	/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/mocs_compilation.cpp	8376585dbb78c6b4
+14	1281	1715500325635668373	CMakeFiles/ConwaysGOL.dir/widget.cpp.o	8d06379fe5034b06
+1281	1551	1715500325903668164	ConwaysGOL	83ea7b993fb0a70f

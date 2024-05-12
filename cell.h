@@ -2,25 +2,32 @@
 #define CELL_H
 
 #include <QObject>
-#include <QRect>
+#include <QGraphicsRectItem>
 
-class Cell : public QObject
+class Cell : public QGraphicsRectItem
 {
-    Q_OBJECT
+
 public:
-    explicit Cell(QObject *parent = nullptr);
-    ~Cell();
+    explicit Cell(QPoint startPoint, int height, bool isAlive = false);
 
     bool getIsAlive() const;
     void setIsAlive(bool newIsAlive);
+    void addNeighbor();
+
+    int getGeneration() const;
+    void setGeneration(int newGeneration);
+
+    int height() const;
+    void setHeight(int newHeight);
 
 private:
-    int width;
-    int height;
-    QPoint startPoint;
-    bool isAlive;
+    int m_height;
+    QPoint m_startPoint;
+    bool m_isAlive;
+    bool m_shouldDie;
+    int m_generation;
+    int m_neighborCount;
 
-signals:
 };
 
 #endif // CELL_H
