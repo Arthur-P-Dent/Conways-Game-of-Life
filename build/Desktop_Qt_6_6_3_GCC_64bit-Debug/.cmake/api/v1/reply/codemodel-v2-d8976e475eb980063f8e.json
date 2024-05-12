@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-20598f2c589d941f4d07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ConwaysGOL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ConwaysGOL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConwaysGOL-Debug-360b589a97947c7bf4a7.json",
+					"name" : "ConwaysGOL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConwaysGOL_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConwaysGOL_autogen-Debug-c40dffc9d120cc7ec4cb.json",
+					"name" : "ConwaysGOL_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ConwaysGOL_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ConwaysGOL_autogen_timestamp_deps-Debug-7755969ec295f5b4d6b2.json",
+					"name" : "ConwaysGOL_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug",
+		"source" : "/home/arthur/Code/Cpp/ConwaysGOL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

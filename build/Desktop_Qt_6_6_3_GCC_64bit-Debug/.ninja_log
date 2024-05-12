@@ -1,0 +1,9 @@
+# ninja log v5
+0	293	1715461426270919447	/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/mocs_compilation.cpp	8376585dbb78c6b4
+0	293	1715461426270919447	ConwaysGOL_autogen/mocs_compilation.cpp	8376585dbb78c6b4
+1814	2039	1715461428018974721	ConwaysGOL	a77254e2560637b8
+0	293	1715461426270919447	/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/timestamp	8376585dbb78c6b4
+0	293	1715461426270919447	ConwaysGOL_autogen/timestamp	8376585dbb78c6b4
+294	1814	1715461427794967636	CMakeFiles/ConwaysGOL.dir/widget.cpp.o	8d06379fe5034b06
+293	1769	1715461427750966244	CMakeFiles/ConwaysGOL.dir/ConwaysGOL_autogen/mocs_compilation.cpp.o	b925e557028e4d9f
+293	1722	1715461427702964726	CMakeFiles/ConwaysGOL.dir/main.cpp.o	b4c7eccf41920c76

@@ -1,0 +1,6 @@
+TODO
+
+[ ] Add in spinbox for setting the time length for each generation.
+[ ] Maybe add one for the number of generations.
+[ ] Something that will display the amount of time it will take to run
+    the simulation with the current settings.
