@@ -19,6 +19,7 @@ public:
 private:
     QVector<QVector<Cell *>> cellGrid;
     long int generations;
+    long int screenSize;
 
     bool checkLiveCell();
     bool checkDeadCell();

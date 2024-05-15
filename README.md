@@ -25,3 +25,9 @@ vertically, or diagonally adjacent
                 |           
                 |           
     (-x,+y)     |    (+x,+y)
+    
+---
+### TODO
+
+* [ ] Add in grid system / setup zoom. [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/14324162#questions)
+* [ ] Figure out how to detect neighbors.
