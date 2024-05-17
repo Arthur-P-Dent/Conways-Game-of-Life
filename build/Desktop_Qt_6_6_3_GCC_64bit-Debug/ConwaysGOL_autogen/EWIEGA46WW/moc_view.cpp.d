@@ -1,6 +1,5 @@
-/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/EWIEGA46WW/moc_widget.cpp: /home/arthur/Code/Cpp/ConwaysGOL/widget.h \
+/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/EWIEGA46WW/moc_view.cpp: /home/arthur/Code/Cpp/ConwaysGOL/view.h \
   /home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/moc_predefs.h \
-  /home/arthur/Code/Cpp/ConwaysGOL/view.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtCore/q20functional.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtCore/q20memory.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtCore/q20type_traits.h \
@@ -144,7 +143,6 @@
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qwindowdefs.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/QGraphicsRectItem \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/QGraphicsView \
-  /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/QWidget \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qabstractscrollarea.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qframe.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qgraphicsitem.h \

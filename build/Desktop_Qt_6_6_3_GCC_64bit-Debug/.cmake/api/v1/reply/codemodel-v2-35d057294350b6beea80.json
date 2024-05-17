@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-20598f2c589d941f4d07.json",
+					"jsonFile" : "directory-.-Debug-adc5220fed84fb6d4a01.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ConwaysGOL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ConwaysGOL-Debug-95f0026621109c252332.json",
+					"jsonFile" : "target-ConwaysGOL-Debug-cb40a277d832b48067e4.json",
 					"name" : "ConwaysGOL",
 					"projectIndex" : 0
 				},

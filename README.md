@@ -29,6 +29,6 @@ vertically, or diagonally adjacent
 ---
 ### TODO
 
-* [ ] Add in grid system [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/15986408#questions/21803686)
-* [ ] Add Zoom feature [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/15986418#questions/21803686)
+* [x] Add in grid system [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/15986408#questions/21803686)
+* [x] Add Zoom feature [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/15986418#questions/21803686)
 * [ ] Figure out how to detect neighbors.

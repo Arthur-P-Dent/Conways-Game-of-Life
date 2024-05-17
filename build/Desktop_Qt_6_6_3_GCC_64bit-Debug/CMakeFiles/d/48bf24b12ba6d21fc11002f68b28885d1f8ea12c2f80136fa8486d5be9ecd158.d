@@ -9,6 +9,8 @@ ConwaysGOL_autogen/timestamp: \
   /home/arthur/Code/Cpp/ConwaysGOL/main.cpp \
   /home/arthur/Code/Cpp/ConwaysGOL/thegame.cpp \
   /home/arthur/Code/Cpp/ConwaysGOL/thegame.h \
+  /home/arthur/Code/Cpp/ConwaysGOL/view.cpp \
+  /home/arthur/Code/Cpp/ConwaysGOL/view.h \
   /home/arthur/Code/Cpp/ConwaysGOL/widget.cpp \
   /home/arthur/Code/Cpp/ConwaysGOL/widget.h \
   /home/arthur/Code/Cpp/ConwaysGOL/widget.ui \
@@ -138,22 +140,31 @@ ConwaysGOL_autogen/timestamp: \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qimage.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qkeysequence.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qpainter.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qpainterpath.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qpalette.h \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qpen.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qpixelformat.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qpixmap.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qpolygon.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qregion.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qrgb.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qrgba64.h \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qtextoption.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qtgui-config.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qtguiexports.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qtguiglobal.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qtransform.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtGui/qwindowdefs.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/QGraphicsRectItem \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/QGraphicsView \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/QWidget \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qframe.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qgraphicsitem.h \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qgraphicsscene.h \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qgraphicsview.h \
+  /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qscrollarea.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets/qtwidgetsexports.h \

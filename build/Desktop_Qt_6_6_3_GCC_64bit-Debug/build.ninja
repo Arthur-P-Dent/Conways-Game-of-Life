@@ -89,6 +89,14 @@ build CMakeFiles/ConwaysGOL.dir/thegame.cpp.o: CXX_COMPILER__ConwaysGOL_unscanne
   OBJECT_DIR = CMakeFiles/ConwaysGOL.dir
   OBJECT_FILE_DIR = CMakeFiles/ConwaysGOL.dir
 
+build CMakeFiles/ConwaysGOL.dir/view.cpp.o: CXX_COMPILER__ConwaysGOL_unscanned_Debug /home/arthur/Code/Cpp/ConwaysGOL/view.cpp || cmake_object_order_depends_target_ConwaysGOL
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/ConwaysGOL.dir/view.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/include -isystem /home/arthur/Qt/6.6.3/gcc_64/include/QtCore -isystem /home/arthur/Qt/6.6.3/gcc_64/include -isystem /home/arthur/Qt/6.6.3/gcc_64/mkspecs/linux-g++ -isystem /home/arthur/Qt/6.6.3/gcc_64/include/QtWidgets -isystem /home/arthur/Qt/6.6.3/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/ConwaysGOL.dir
+  OBJECT_FILE_DIR = CMakeFiles/ConwaysGOL.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ConwaysGOL
@@ -97,7 +105,7 @@ build CMakeFiles/ConwaysGOL.dir/thegame.cpp.o: CXX_COMPILER__ConwaysGOL_unscanne
 #############################################
 # Link the executable ConwaysGOL
 
-build ConwaysGOL: CXX_EXECUTABLE_LINKER__ConwaysGOL_Debug CMakeFiles/ConwaysGOL.dir/ConwaysGOL_autogen/mocs_compilation.cpp.o CMakeFiles/ConwaysGOL.dir/main.cpp.o CMakeFiles/ConwaysGOL.dir/widget.cpp.o CMakeFiles/ConwaysGOL.dir/cell.cpp.o CMakeFiles/ConwaysGOL.dir/thegame.cpp.o | /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Widgets.so.6.6.3 /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Gui.so.6.6.3 /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || ConwaysGOL_autogen ConwaysGOL_autogen_timestamp_deps
+build ConwaysGOL: CXX_EXECUTABLE_LINKER__ConwaysGOL_Debug CMakeFiles/ConwaysGOL.dir/ConwaysGOL_autogen/mocs_compilation.cpp.o CMakeFiles/ConwaysGOL.dir/main.cpp.o CMakeFiles/ConwaysGOL.dir/widget.cpp.o CMakeFiles/ConwaysGOL.dir/cell.cpp.o CMakeFiles/ConwaysGOL.dir/thegame.cpp.o CMakeFiles/ConwaysGOL.dir/view.cpp.o | /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Widgets.so.6.6.3 /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Gui.so.6.6.3 /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || ConwaysGOL_autogen ConwaysGOL_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/arthur/Qt/6.6.3/gcc_64/lib:  /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Widgets.so.6.6.3  /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Gui.so.6.6.3  /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/ConwaysGOL.dir
@@ -198,7 +206,7 @@ build ConwaysGOL_autogen/timestamp ConwaysGOL_autogen/mocs_compilation.cpp | ${c
 #############################################
 # Phony custom command for CMakeFiles/ConwaysGOL_autogen_timestamp_deps
 
-build CMakeFiles/ConwaysGOL_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ConwaysGOL_autogen_timestamp_deps: phony /home/arthur/Qt/6.6.3/gcc_64/./libexec/uic /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Widgets.so.6.6.3 /home/arthur/Qt/6.6.3/gcc_64/./libexec/moc /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3
+build CMakeFiles/ConwaysGOL_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ConwaysGOL_autogen_timestamp_deps: phony /home/arthur/Qt/6.6.3/gcc_64/./libexec/uic /home/arthur/Qt/6.6.3/gcc_64/./libexec/moc /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3 /home/arthur/Qt/6.6.3/gcc_64/lib/libQt6Widgets.so.6.6.3
 
 
 #############################################

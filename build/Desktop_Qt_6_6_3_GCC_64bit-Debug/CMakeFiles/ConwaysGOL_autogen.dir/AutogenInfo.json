@@ -370,6 +370,12 @@
 			null
 		],
 		[
+			"/home/arthur/Code/Cpp/ConwaysGOL/view.h",
+			"MU",
+			"EWIEGA46WW/moc_view.cpp",
+			null
+		],
+		[
 			"/home/arthur/Code/Cpp/ConwaysGOL/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -437,6 +443,7 @@
 		[ "/home/arthur/Code/Cpp/ConwaysGOL/cell.cpp", "MU", null ],
 		[ "/home/arthur/Code/Cpp/ConwaysGOL/main.cpp", "MU", null ],
 		[ "/home/arthur/Code/Cpp/ConwaysGOL/thegame.cpp", "MU", null ],
+		[ "/home/arthur/Code/Cpp/ConwaysGOL/view.cpp", "MU", null ],
 		[ "/home/arthur/Code/Cpp/ConwaysGOL/widget.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
