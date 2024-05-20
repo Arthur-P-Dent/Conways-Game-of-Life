@@ -71,13 +71,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 67,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 50,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
@@ -287,7 +287,8 @@
 				2,
 				7,
 				9,
-				10
+				10,
+				15
 			]
 		}
 	],
@@ -378,7 +379,8 @@
 				2,
 				7,
 				9,
-				10
+				10,
+				15
 			]
 		},
 		{
@@ -389,7 +391,7 @@
 				6,
 				8,
 				11,
-				12
+				13
 			]
 		},
 		{
@@ -398,14 +400,16 @@
 			[
 				4,
 				5,
-				13
+				12,
+				14
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				14
+				16,
+				17
 			]
 		}
 	],
@@ -479,6 +483,11 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 4,
+			"path" : "resources.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/include/ui_widget.h",
@@ -492,8 +501,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/EWIEGA46WW/qrc_resources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/EWIEGA46WW/qrc_resources.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

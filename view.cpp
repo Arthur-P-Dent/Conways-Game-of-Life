@@ -5,7 +5,7 @@
 #include <QPainterPath>
 
 View::View(QWidget *parent)
-    : QGraphicsView{parent}, drawingSelection{false}, lastRect{nullptr}, showGrid{true}, bkgdColor{Qt::gray}
+    : QGraphicsView{parent}, drawingSelection{false}, lastRect{nullptr}, showGrid{true}, bkgdColor{Qt::gray}, CELL_SIZE{20}
 {}
 
 
@@ -85,18 +85,30 @@ void View::drawBackground(QPainter *painter, const QRectF &rect)
 void View::drawForeground(QPainter *painter, const QRectF &rect)
 {
     if (showGrid) {
-        int CELL_SIZE = 50;
+
         // -800, -400, 1600, 800
         // painter is used by other parts of the app so make sure to save before using...
         painter->save();
 
         painter->setPen(QColor(100, 100, 100, 50));
         // vertical lines =====
-        for (auto i{0}; i < 32; i++)
+        for (auto i{0}; i < 80; i++) {
+            if (i % 10) {
+                painter->setPen(QPen(QColor(100, 100, 100, 50), 1));
+            } else {
+                painter->setPen(QPen(QColor(100, 100, 100, 50), 2));
+            }
             painter->drawLine(-800 + (CELL_SIZE * i), -400, -800 + (CELL_SIZE * i), 400);
+        }
         // horizontal lines |||
-        for (auto i{0}; i < 16; i++)
+        for (auto i{0}; i < 40; i++) {
+            if (i % 10) {
+                painter->setPen(QPen(QColor(100, 100, 100, 50), 1));
+            } else {
+                painter->setPen(QPen(QColor(100, 100, 100, 50), 2));
+            }
             painter->drawLine(-800, -400 + (CELL_SIZE * i), 800, -400 + (CELL_SIZE * i));
+        }
         // and restore painter after using
         painter->restore();
     } else {

@@ -350,7 +350,8 @@
 		"/home/arthur/Qt/6.6.3/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
 		"/home/arthur/Qt/6.6.3/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
 		"/home/arthur/Qt/6.6.3/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
-		"/home/arthur/Qt/Tools/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake"
+		"/home/arthur/Qt/Tools/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
+		"/home/arthur/Code/Cpp/ConwaysGOL/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/arthur/Code/Cpp/ConwaysGOL",
 	"DEP_FILE" : "/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/deps",

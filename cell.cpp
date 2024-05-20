@@ -1,55 +1,61 @@
 #include "cell.h"
+#include <QPen>
+
 
 // cell is set to isAlive false
 Cell::Cell(QPoint startPoint, int height, bool isAlive)
-    : m_startPoint{startPoint}, m_height{height}, m_isAlive{isAlive}
+    : startPoint{startPoint}, m_height{height}, isAlive{isAlive}
 {
-    m_generation = 1;
-    m_neighborCount = 0;
+    this->generation = 1;
+    this->neighborCount = 0;
+
+    this->setRect(0, 0, this->height(), this->height());
+    this->setBrush(QBrush(Qt::blue));
+    this->setPen(QPen(Qt::NoPen));
 }
 
 
 bool Cell::getIsAlive() const
 {
-    return m_isAlive;
+    return this->isAlive;
 }
 
 
 void Cell::setIsAlive(bool newIsAlive)
 {
-    m_isAlive = newIsAlive;
+    this->isAlive = newIsAlive;
 }
 
 
 void Cell::addNeighbor()
 {
     // if neighborCount is 8, it should be a new generation.
-    if (m_neighborCount == 8) {
-        m_neighborCount = 0;
+    if (this->neighborCount == 8) {
+        this->neighborCount = 0;
     } else {
-        m_neighborCount += 1;
+        this->neighborCount += 1;
     }
 }
 
 
 int Cell::getGeneration() const
 {
-    return m_generation;
+    return this->generation;
 }
 
 
 void Cell::setGeneration(int newGeneration)
 {
-    m_generation = newGeneration;
+    this->generation = newGeneration;
 }
 
 int Cell::height() const
 {
-    return m_height;
+    return this->m_height;
 }
 
 
 void Cell::setHeight(int newHeight)
 {
-    m_height = newHeight;
+    this->m_height = newHeight;
 }

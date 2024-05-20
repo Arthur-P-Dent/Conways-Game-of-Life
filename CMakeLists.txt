@@ -27,6 +27,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         cell.h cell.cpp
         thegame.h thegame.cpp
         view.cpp view.h
+        resources.qrc
+        # images/BoundryConditions.png
 
     )
 # Define target properties for Android with Qt 6 as:

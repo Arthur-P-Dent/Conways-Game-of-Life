@@ -7,6 +7,7 @@ ConwaysGOL_autogen/timestamp: \
 	/home/arthur/Code/Cpp/ConwaysGOL/cell.cpp \
 	/home/arthur/Code/Cpp/ConwaysGOL/cell.h \
 	/home/arthur/Code/Cpp/ConwaysGOL/main.cpp \
+	/home/arthur/Code/Cpp/ConwaysGOL/resources.qrc \
 	/home/arthur/Code/Cpp/ConwaysGOL/thegame.cpp \
 	/home/arthur/Code/Cpp/ConwaysGOL/thegame.h \
 	/home/arthur/Code/Cpp/ConwaysGOL/view.cpp \

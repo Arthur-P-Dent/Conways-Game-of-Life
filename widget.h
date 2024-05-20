@@ -27,8 +27,25 @@ private slots:
 
     void on_zoomIn_bttn_clicked();
 
+    void on_start_bttn_clicked();
+
+    void on_next_bttn_clicked();
+
+    void on_edit_chbx_toggled(bool checked);
+
+    void on_reset_bttn_clicked();
+
+    void on_simSpeed_sldr_valueChanged(int value);
+
+    void on_help_bttn_clicked();
+
+
+
 private:
     Ui::Widget *ui;
+    QGraphicsScene *scene;
     View *view;
+    bool isRunning;
+    bool editEnabled;
 };
 #endif // WIDGET_H

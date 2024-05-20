@@ -4,3 +4,20 @@ TODO
 [ ] Maybe add one for the number of generations.
 [ ] Something that will display the amount of time it will take to run
     the simulation with the current settings.
+checked before adding or removing cells.
+* [x] Add in grid system [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/15986408#questions/21803686)
+    * [x] Edit grid so that it has thicker lines every 10(?) lines.
+* [x] Add Zoom feature [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/15986418#questions/21803686)
+* [ ] Remove Stop button and make Start button change states depending on if the game is running or stopped.
+* [ ] Create math to calculate how many grid lines to draw (look in view.drawForeground())
+* [ ] Figure out how to detect neighbors.
+* [ ] Look at QFileDialog and implement a way to save and load files [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/14324186#questions&t=5m)
+* [ ] Make viewLayout editable
+    1. One option would be to click on cell, which would open up a new window where you can edit.
+    2. Another option (possibly the easiest way), would be to just make the view itself editable.
+* [ ] Create a menu with a bunch of predefined starting shapes. [*reference](https://www.udemy.com/course/qt-c-gui-development-intermediate/learn/lecture/15509896#questions)
+    * This might be too hard, but you could click and drag said shape from the list of values (with pictures)
+    and place them right in the scene.
+    * Could also just make a cell selectable, than when you click on the predefined shape it will appear with
+    the selected cell being the upper left corner.
+

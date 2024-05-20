@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen",
+	"CMAKE_BINARY_DIR" : "/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/arthur/Code/Cpp/ConwaysGOL",
+	"CMAKE_SOURCE_DIR" : "/home/arthur/Code/Cpp/ConwaysGOL",
+	"INCLUDE_DIR" : "/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/ConwaysGOL_autogen/include",
+	"INPUTS" : [ "/home/arthur/Code/Cpp/ConwaysGOL/images/BoundryConditions.png" ],
+	"LOCK_FILE" : "/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/ConwaysGOL_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/home/arthur/Qt/6.6.3/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/arthur/Code/Cpp/ConwaysGOL/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/ConwaysGOL_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/arthur/Code/Cpp/ConwaysGOL/resources.qrc",
+	"VERBOSITY" : 0
+}

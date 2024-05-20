@@ -22,11 +22,11 @@ public:
 
 private:
     int m_height;
-    QPoint m_startPoint;
-    bool m_isAlive;
-    bool m_shouldDie;
-    int m_generation;
-    int m_neighborCount;
+    QPoint startPoint;
+    bool isAlive;
+    bool shouldDie;
+    int generation;
+    int neighborCount;
 
 };
 

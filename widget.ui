@@ -18,7 +18,7 @@
     <layout class="QVBoxLayout" name="viewLayout"/>
    </item>
    <item>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="controlsLayout">
      <item>
       <widget class="QPushButton" name="start_bttn">
        <property name="text">
@@ -27,14 +27,88 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="stop_bttn">
+      <widget class="QPushButton" name="next_bttn">
        <property name="text">
-        <string>Stop</string>
+        <string>Next</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLabel" name="label">
+      <widget class="QPushButton" name="reset_bttn">
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="simSpeed_lbl">
+       <property name="text">
+        <string>Simulation Speed</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSlider" name="simSpeed_sldr">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="generation_lbl">
+       <property name="text">
+        <string>Generation</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLCDNumber" name="genCounter_lcdn">
+       <property name="digitCount">
+        <number>15</number>
+       </property>
+       <property name="segmentStyle">
+        <enum>QLCDNumber::Filled</enum>
+       </property>
+       <property name="intValue" stdset="0">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="edit_chbx">
+       <property name="text">
+        <string>Edit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="zoom_lbl">
        <property name="text">
         <string>Zoom</string>
        </property>
@@ -44,7 +118,7 @@
       </widget>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
+      <layout class="QHBoxLayout" name="zoomLayout">
        <item>
         <widget class="QPushButton" name="zoomOut_bttn">
          <property name="text">
@@ -69,9 +143,9 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="edit_bttn">
+      <widget class="QPushButton" name="help_bttn">
        <property name="text">
-        <string>Edit Gen 1</string>
+        <string>Help</string>
        </property>
       </widget>
      </item>

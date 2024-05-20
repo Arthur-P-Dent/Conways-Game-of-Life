@@ -32,6 +32,7 @@ private:
     QGraphicsRectItem *lastRect;
     bool showGrid;
     QColor bkgdColor;
+    int CELL_SIZE;
 
 };
 
